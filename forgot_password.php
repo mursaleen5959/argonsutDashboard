@@ -51,8 +51,8 @@ function sendMail($receiver_mail,$new_pass)
 
 
     // ======= C R E D E N T I A L S ======= 
-    $mail->Username = 'tlannister903@gmail.com';       // SMTP username
-    $mail->Password = 'iimvajgcrgfdngyd';         // SMTP password
+    $mail->Username = 'mail@example.com';       // SMTP username
+    $mail->Password = 'app_password_here';         // SMTP password
     // =====================================
 
 
@@ -63,7 +63,7 @@ function sendMail($receiver_mail,$new_pass)
 //    $mail->Port = 465;                          // TCP port to connect to
     
     // Sender info 
-    $mail->setFrom('tlannister903@gmail.com', 'Forgot Password'); 
+    $mail->setFrom('mail@example.com', 'Forgot Password'); 
 //    $mail->addReplyTo('reply@example.com', 'SenderName'); 
     
     // Add a recipient 
