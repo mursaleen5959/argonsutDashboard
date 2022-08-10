@@ -1,0 +1,34 @@
+.login-form{
+    /* border: solid black 1px; */
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 9px rgb(62, 62, 65);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.img-carousel{
+    object-fit: cover;
+    height: 500px;
+}
+.carousel-inner{
+    border-radius: 50px;
+}
+.footer-links{
+    color: white;
+    text-decoration: none;
+}
+.card
+{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius:  30px;
+    border-top-right-radius:    30px !important;
+    border-top-left-radius:     30px !important;
+    box-shadow: 0px 0px 9px rgb(62, 62, 65);
+}
+.card-header
+{
+    border-top-right-radius:    30px !important;
+    border-top-left-radius:     30px !important;
+}
